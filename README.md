@@ -1,12 +1,14 @@
 ```
-                                      KULLIYYAH OF INFORMATION & COMMUNICATION TECHNOLOGY
-                                      WEB APPLICATION DEVELOPMENT (INFO 3305), SECTION 3
-                                                     SEMESTER 1, 2021/2022
-                                     Web Application Proposal: Flight Reservation Website
+                                    KULLIYYAH OF INFORMATION & COMMUNICATION TECHNOLOGY
+                                    WEB APPLICATION DEVELOPMENT (INFO 3305), SECTION 3
+                                                   SEMESTER 1, 2021/2022
+                                   Web Application Proposal: Flight Reservation Website
 
-                                            Hareez Sidqi Bin Mohd Fuad (2015199)
-                                          Nik Nurul Fakhriwani bt Nik Azlan (1911480)
-                                          Muhammad Naim Imran bin Mohd Nizar (1917173)
+                                          Hareez Sidqi Bin Mohd Fuad (2015199)
+                                        Nik Nurul Fakhriwani bt Nik Azlan (1911480)
+                                        Muhammad Naim Imran bin Mohd Nizar (1917173)
+                                                  Syahmi Amin (1918793)
+                                          Mohammed Sadeq Ahmed Alward (1734825)
 
 ```
 ## Introduction
@@ -25,25 +27,11 @@ Apart from that, we will ensure that the booking system is able to accept the re
 
 ## Model-View-Controller-Routes
 ### Routes
-The routes basically, routing to a particular controller which are the admin and
-user controller, and from there the controllers take the place of managing the requests
-and directing procedures.
+
 ### Controllers
-Controllers are the brain of the web application, where they can control which
-views to present and deal with the CRUD operations performed by the admin and
-communicate with the models to update the database. The admin controller, though it
-the web application directing the admin to different views and updates the database.
-Also, that happens on the user’s controllers where they handle the requests logic and
-present the desired view by using the view global helper. In brief, the controllers are
-routed by post and get methods.
+
 ### Views
-The views of the web application are divided into two parts the admin views and
-the users or student’s views. The admin views are allowing the admin to surf the web
-application from the admin perspective, as it allows the admin to perform the CRUD
-operations within these views. Such as creating, reading, updating, and deleting
-(CRUD) candidates for the election. On the other hand, the users or students' views,
-they are allowed only to view and vote for candidates on time only. In addition, they
-can register to be candidates when the registering window is open
+
 ### Model
 
 ## Entity Relationship Diagram (ER Diagram)
@@ -55,4 +43,6 @@ The figure details the Entity Relationship Diagram for the Flight reservation sy
 - **One** _Gate_ reserves **One or Many** _Booking_ 
 - **One** _Flight_ selects **One** _Airline_
 ## Sequence Diagram
+The sequence Diagram shows one event from the web application where the admin requests to move to the candidate's view and update information. Then the database is updated, and the admin is notified.
+![Flight Reservation Sequence Diagram](https://i.imgur.com/KmqXczL.png)
 ## References
