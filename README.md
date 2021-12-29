@@ -1,12 +1,12 @@
 ```
-                                KULLIYYAH OF INFORMATION & COMMUNICATION TECHNOLOGY
-                                WEB APPLICATION DEVELOPMENT (INFO 3305), SECTION 3
-                                               SEMESTER 1, 2021/2022
-                               Web Application Proposal: Flight Reservation Website
-                               
-                                      Hareez Sidqi Bin Mohd Fuad (2015199)
-                                  Nik Nurul Fakhriwani bt Nik Azlan (1911480)
-                                  Muhammad Naim Imran bin Mohd Nizar (1917173)
+                                                              KULLIYYAH OF INFORMATION & COMMUNICATION TECHNOLOGY
+                                                              WEB APPLICATION DEVELOPMENT (INFO 3305), SECTION 3
+                                                                             SEMESTER 1, 2021/2022
+                                                             Web Application Proposal: Flight Reservation Website
+
+                                                                    Hareez Sidqi Bin Mohd Fuad (2015199)
+                                                                Nik Nurul Fakhriwani bt Nik Azlan (1911480)
+                                                                Muhammad Naim Imran bin Mohd Nizar (1917173)
 
 ```
 ## Introduction
