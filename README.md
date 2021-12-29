@@ -52,3 +52,5 @@ The figure details the Entity Relationship Diagram for the Flight reservation sy
 The sequence Diagram shows one event from the web application where the admin requests to move to the candidate's view and update information. Then the database is updated, and the admin is notified.
 ![Flight Reservation Sequence Diagram](https://i.imgur.com/KmqXczL.png)
 ## References
+1. AirAsia, https://www.airasia.com/ 
+2. https://laravel.com/docs/8.x/routing
