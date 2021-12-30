@@ -13,6 +13,8 @@
                                           Lecturer: MOHD KHAIRUL AZMI BIN HASSAN
 
 ```
+##Presentation Link
+
 ## Introduction
 Air transport has been one of the most demanded modes of transportation in Malaysia. In addition to that, a flight reservation system is crucial, especially in today’s busy world. It is a system that helps in consolidating flight data which include flight schedules, seat availability, flight fares, reservations from different airlines for customers and travel agents to book flight tickets. For this web application development project, our group has decided to develop a flight reservation web application. 
 
@@ -33,12 +35,28 @@ Apart from that, we will ensure that the booking system is able to accept the re
 
 ## Model-View-Controller-Routes
 ### Routes
+The function of routes is routing to a particular controller which are the admin and
+user controller, and from there the controllers take the place of managing the requests
+and directing procedures.
 
 ### Controllers
+Controllers are the brain of the web application, where they can control which
+views to present and deal with the CRUD operations performed by the admin and
+communicate with the models to update the database. The admin controller, though it
+the web application directing the admin to different views and updates the database.
+Also, that happens on the user’s controllers where they handle the requests logic and
+present the desired view by using the view global helper. In brief, the controllers are
+routed by post and get methods.
 
 ### Views
+The views of the web application are divided into two parts the admin views and
+the user's views. The admin views are allowing the admin to surf the web
+application from the admin perspective, as it allows the admin to perform the CRUD
+operations within these views. Such as creating, reading, updating, and deleting
+(CRUD) candidates for the election. On the other hand, the users' views, the users are allowed to book a flight, to check the flight available and to view the booked flight details.
 
 ### Model
+Model–view–controller (MVC) is commonly used for developing user interfaces that divide the related program logic into three interrelated and connected elements which are model, view and controller. This is done to separate the sections of a system so it will be more organized and easy to monitor by the admin
 
 ## Entity Relationship Diagram (ER Diagram)
 ![Flight Reservation ERD](https://i.imgur.com/5nGH48Z.png)
