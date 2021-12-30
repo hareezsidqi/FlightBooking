@@ -41,7 +41,7 @@ Apart from that, we will ensure that the booking system is able to accept the re
 ### Model
 
 ## Entity Relationship Diagram (ER Diagram)
-![Flight Reservation ERD](https://i.imgur.com/XrllqyM.png)
+![Flight Reservation ERD](https://i.imgur.com/5nGH48Z.png)
 The figure details the Entity Relationship Diagram for the Flight reservation system. The relationship between tables is as follows:
 - **One** _User_ registers **None or One or Many** _Bookings_. 
 - **None or One or Many** _Airlines_ will standby at **None or One** _Gate_. 
