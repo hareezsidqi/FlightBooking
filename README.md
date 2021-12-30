@@ -80,7 +80,7 @@ The sequence Diagram shows one event from the web application where the admin re
 ### Flight Details Page
 ![Flight Details Page](https://i.imgur.com/pmrEGn1.jpg)
 ### Ticket Page
-![Ticket Page](https://i.imgur.com/5nGH48Z.png)
+![Ticket Page](https://i.imgur.com/oO99OON.jpg)
 
 ## References
 1. AirAsia, https://www.airasia.com/ 
